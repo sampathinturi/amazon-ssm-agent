@@ -123,7 +123,7 @@ func DefaultConfig() SsmagentConfig {
 		SessionLogsRetentionDurationHours:     DefaultSessionLogsRetentionDurationHours,
 	}
 	var agent = AgentInfo{
-		Name:                 "amazon-ssm-agent",
+		Name:                 "qvagent",
 		OrchestrationRootDir: defaultOrchestrationRootDirName,
 	}
 	var os = OsInfo{

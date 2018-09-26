@@ -1,11 +1,11 @@
 [Unit]
-Description=amazon-ssm-agent
+Description=qvagent
 After=network-online.target
 
 [Service]
 Type=simple
-WorkingDirectory=/usr/bin/
-ExecStart=/usr/bin/amazon-ssm-agent
+WorkingDirectory=/data/qvagent/bin/
+ExecStart=/data/qvagent/bin/qvagent
 KillMode=process
 Restart=on-failure
 RestartSec=15min

@@ -1,4 +1,4 @@
-/etc/init/amazon-ssm-agent.conf
-/etc/amazon/ssm/amazon-ssm-agent.json
-/etc/amazon/ssm/seelog.xml
-/lib/systemd/system/amazon-ssm-agent.service
+/etc/init/qvagent.conf
+/data/qvagent/etc/qvagent.json
+/data/qvagent/etc/seelog.xml
+/lib/systemd/system/qvagent.service

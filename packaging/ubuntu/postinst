@@ -1,10 +1,10 @@
 echo "Starting agent"
 if [ $(cat /proc/1/comm) = init ]
 then
-    start amazon-ssm-agent || true
+    start qvagent || true
 elif [ $(cat /proc/1/comm) = systemd ]
 then
-    systemctl enable amazon-ssm-agent
-    systemctl start amazon-ssm-agent
+    systemctl enable qvagent
+    systemctl start qvagent
     systemctl daemon-reload
 fi

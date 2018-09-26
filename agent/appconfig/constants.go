@@ -18,7 +18,7 @@ import "os"
 
 const (
 	// Agent defaults
-	DefaultAgentName = "amazon-ssm-agent"
+	DefaultAgentName = "qvagent"
 
 	DefaultCommandWorkersLimit    = 5
 	DefaultCommandWorkersLimitMin = 1

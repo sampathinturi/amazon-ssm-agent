@@ -29,9 +29,9 @@ import (
 )
 
 const (
-	osReleaseFile          = "/etc/os-release"
-	systemReleaseFile      = "/etc/system-release"
-	redhatReleaseFile      = "/etc/redhat-release"
+	osReleaseFile     = "/etc/os-release"
+	systemReleaseFile = "/etc/system-release"
+	// redhatReleaseFile      = "/etc/redhat-release"
 	unameCommand           = "/usr/bin/uname"
 	lsbReleaseCommand      = "lsb_release"
 	fetchingDetailsMessage = "fetching platform details from %v"
